@@ -1,0 +1,485 @@
+{
+ "root": "C:\\Users\\USER\\Downloads\\IDSS",
+ "files": [
+  {
+   "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_02_01_matchinformation_DFL-COM-000001_DFL-MAT-J03WMX.xml",
+   "relpath": "DFL_02_01_matchinformation_DFL-COM-000001_DFL-MAT-J03WMX.xml",
+   "name": "DFL_02_01_matchinformation_DFL-COM-000001_DFL-MAT-J03WMX.xml",
+   "ext": ".xml",
+   "size": 11930,
+   "mtime": 1789303836,
+   "role": "matchinformation",
+   "match": "J03WMX"
+  },
+  {
+   "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_02_01_matchinformation_DFL-COM-000001_DFL-MAT-J03WN1.xml",
+   "relpath": "DFL_02_01_matchinformation_DFL-COM-000001_DFL-MAT-J03WN1.xml",
+   "name": "DFL_02_01_matchinformation_DFL-COM-000001_DFL-MAT-J03WN1.xml",
+   "ext": ".xml",
+   "size": 11722,
+   "mtime": 1789303836,
+   "role": "matchinformation",
+   "match": "J03WN1"
+  },
+  {
+   "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WOH.xml",
+   "relpath": "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WOH.xml",
+   "name": "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WOH.xml",
+   "ext": ".xml",
+   "size": 11745,
+   "mtime": 1789303836,
+   "role": "matchinformation",
+   "match": "J03WOH"
+  },
+  {
+   "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WOY.xml",
+   "relpath": "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WOY.xml",
+   "name": "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WOY.xml",
+   "ext": ".xml",
+   "size": 11952,
+   "mtime": 1789303836,
+   "role": "matchinformation",
+   "match": "J03WOY"
+  },
+  {
+   "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WPY.xml",
+   "relpath": "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WPY.xml",
+   "name": "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WPY.xml",
+   "ext": ".xml",
+   "size": 11922,
+   "mtime": 1789303836,
+   "role": "matchinformation",
+   "match": "J03WPY"
+  },
+  {
+   "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WQQ.xml",
+   "relpath": "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WQQ.xml",
+   "name": "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WQQ.xml",
+   "ext": ".xml",
+   "size": 11932,
+   "mtime": 1789303836,
+   "role": "matchinformation",
+   "match": "J03WQQ"
+  },
+  {
+   "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WR9.xml",
+   "relpath": "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WR9.xml",
+   "name": "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WR9.xml",
+   "ext": ".xml",
+   "size": 11823,
+   "mtime": 1789303836,
+   "role": "matchinformation",
+   "match": "J03WR9"
+  },
+  {
+   "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_03_02_events_raw_DFL-COM-000001_DFL-MAT-J03WMX.xml",
+   "relpath": "DFL_03_02_events_raw_DFL-COM-000001_DFL-MAT-J03WMX.xml",
+   "name": "DFL_03_02_events_raw_DFL-COM-000001_DFL-MAT-J03WMX.xml",
+   "ext": ".xml",
+   "size": 776578,
+   "mtime": 1789303836,
+   "role": "events",
+   "match": "J03WMX"
+  },
+  {
+   "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_03_02_events_raw_DFL-COM-000001_DFL-MAT-J03WN1.xml",
+   "relpath": "DFL_03_02_events_raw_DFL-COM-000001_DFL-MAT-J03WN1.xml",
+   "name": "DFL_03_02_events_raw_DFL-COM-000001_DFL-MAT-J03WN1.xml",
+   "ext": ".xml",
+   "size": 612114,
+   "mtime": 1789303836,
+   "role": "events",
+   "match": "J03WN1"
+  },
+  {
+   "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WOH.xml",
+   "relpath": "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WOH.xml",
+   "name": "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WOH.xml",
+   "ext": ".xml",
+   "size": 635747,
+   "mtime": 1789303836,
+   "role": "events",
+   "match": "J03WOH"
+  },
+  {
+   "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WOY.xml",
+   "relpath": "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WOY.xml",
+   "name": "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WOY.xml",
+   "ext": ".xml",
+   "size": 683018,
+   "mtime": 1789303836,
+   "role": "events",
+   "match": "J03WOY"
+  },
+  {
+   "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WPY.xml",
+   "relpath": "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WPY.xml",
+   "name": "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WPY.xml",
+   "ext": ".xml",
+   "size": 698898,
+   "mtime": 1789303836,
+   "role": "events",
+   "match": "J03WPY"
+  },
+  {
+   "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WQQ.xml",
+   "relpath": "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WQQ.xml",
+   "name": "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WQQ.xml",
+   "ext": ".xml",
+   "size": 732186,
+   "mtime": 1789303836,
+   "role": "events",
+   "match": "J03WQQ"
+  },
+  {
+   "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WR9.xml",
+   "relpath": "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WR9.xml",
+   "name": "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WR9.xml",
+   "ext": ".xml",
+   "size": 681050,
+   "mtime": 1789303836,
+   "role": "events",
+   "match": "J03WR9"
+  },
+  {
+   "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_04_03_positions_raw_observed_DFL-COM-000001_DFL-MAT-J03WMX.xml",
+   "relpath": "DFL_04_03_positions_raw_observed_DFL-COM-000001_DFL-MAT-J03WMX.xml",
+   "name": "DFL_04_03_positions_raw_observed_DFL-COM-000001_DFL-MAT-J03WMX.xml",
+   "ext": ".xml",
+   "size": 418524833,
+   "mtime": 1789303841,
+   "role": "positions",
+   "match": "J03WMX"
+  },
+  {
+   "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_04_03_positions_raw_observed_DFL-COM-000001_DFL-MAT-J03WN1.xml",
+   "relpath": "DFL_04_03_positions_raw_observed_DFL-COM-000001_DFL-MAT-J03WN1.xml",
+   "name": "DFL_04_03_positions_raw_observed_DFL-COM-000001_DFL-MAT-J03WN1.xml",
+   "ext": ".xml",
+   "size": 391722803,
+   "mtime": 1789303845,
+   "role": "positions",
+   "match": "J03WN1"
+  },
+  {
+   "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WOH.xml",
+   "relpath": "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WOH.xml",
+   "name": "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WOH.xml",
+   "ext": ".xml",
+   "size": 348945715,
+   "mtime": 1789303848,
+   "role": "positions",
+   "match": "J03WOH"
+  },
+  {
+   "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WOY.xml",
+   "relpath": "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WOY.xml",
+   "name": "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WOY.xml",
+   "ext": ".xml",
+   "size": 362567859,
+   "mtime": 1789303852,
+   "role": "positions",
+   "match": "J03WOY"
+  },
+  {
+   "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WPY.xml",
+   "relpath": "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WPY.xml",
+   "name": "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WPY.xml",
+   "ext": ".xml",
+   "size": 371688499,
+   "mtime": 1789303856,
+   "role": "positions",
+   "match": "J03WPY"
+  },
+  {
+   "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WQQ.xml",
+   "relpath": "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WQQ.xml",
+   "name": "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WQQ.xml",
+   "ext": ".xml",
+   "size": 356219423,
+   "mtime": 1789303860,
+   "role": "positions",
+   "match": "J03WQQ"
+  },
+  {
+   "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WR9.xml",
+   "relpath": "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WR9.xml",
+   "name": "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WR9.xml",
+   "ext": ".xml",
+   "size": 372934140,
+   "mtime": 1789303864,
+   "role": "positions",
+   "match": "J03WR9"
+  }
+ ],
+ "by_match": {
+  "J03WMX": {
+   "matchinformation": [
+    {
+     "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_02_01_matchinformation_DFL-COM-000001_DFL-MAT-J03WMX.xml",
+     "relpath": "DFL_02_01_matchinformation_DFL-COM-000001_DFL-MAT-J03WMX.xml",
+     "name": "DFL_02_01_matchinformation_DFL-COM-000001_DFL-MAT-J03WMX.xml",
+     "ext": ".xml",
+     "size": 11930,
+     "mtime": 1789303836,
+     "role": "matchinformation",
+     "match": "J03WMX"
+    }
+   ],
+   "events": [
+    {
+     "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_03_02_events_raw_DFL-COM-000001_DFL-MAT-J03WMX.xml",
+     "relpath": "DFL_03_02_events_raw_DFL-COM-000001_DFL-MAT-J03WMX.xml",
+     "name": "DFL_03_02_events_raw_DFL-COM-000001_DFL-MAT-J03WMX.xml",
+     "ext": ".xml",
+     "size": 776578,
+     "mtime": 1789303836,
+     "role": "events",
+     "match": "J03WMX"
+    }
+   ],
+   "positions": [
+    {
+     "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_04_03_positions_raw_observed_DFL-COM-000001_DFL-MAT-J03WMX.xml",
+     "relpath": "DFL_04_03_positions_raw_observed_DFL-COM-000001_DFL-MAT-J03WMX.xml",
+     "name": "DFL_04_03_positions_raw_observed_DFL-COM-000001_DFL-MAT-J03WMX.xml",
+     "ext": ".xml",
+     "size": 418524833,
+     "mtime": 1789303841,
+     "role": "positions",
+     "match": "J03WMX"
+    }
+   ]
+  },
+  "J03WN1": {
+   "matchinformation": [
+    {
+     "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_02_01_matchinformation_DFL-COM-000001_DFL-MAT-J03WN1.xml",
+     "relpath": "DFL_02_01_matchinformation_DFL-COM-000001_DFL-MAT-J03WN1.xml",
+     "name": "DFL_02_01_matchinformation_DFL-COM-000001_DFL-MAT-J03WN1.xml",
+     "ext": ".xml",
+     "size": 11722,
+     "mtime": 1789303836,
+     "role": "matchinformation",
+     "match": "J03WN1"
+    }
+   ],
+   "events": [
+    {
+     "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_03_02_events_raw_DFL-COM-000001_DFL-MAT-J03WN1.xml",
+     "relpath": "DFL_03_02_events_raw_DFL-COM-000001_DFL-MAT-J03WN1.xml",
+     "name": "DFL_03_02_events_raw_DFL-COM-000001_DFL-MAT-J03WN1.xml",
+     "ext": ".xml",
+     "size": 612114,
+     "mtime": 1789303836,
+     "role": "events",
+     "match": "J03WN1"
+    }
+   ],
+   "positions": [
+    {
+     "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_04_03_positions_raw_observed_DFL-COM-000001_DFL-MAT-J03WN1.xml",
+     "relpath": "DFL_04_03_positions_raw_observed_DFL-COM-000001_DFL-MAT-J03WN1.xml",
+     "name": "DFL_04_03_positions_raw_observed_DFL-COM-000001_DFL-MAT-J03WN1.xml",
+     "ext": ".xml",
+     "size": 391722803,
+     "mtime": 1789303845,
+     "role": "positions",
+     "match": "J03WN1"
+    }
+   ]
+  },
+  "J03WOH": {
+   "matchinformation": [
+    {
+     "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WOH.xml",
+     "relpath": "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WOH.xml",
+     "name": "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WOH.xml",
+     "ext": ".xml",
+     "size": 11745,
+     "mtime": 1789303836,
+     "role": "matchinformation",
+     "match": "J03WOH"
+    }
+   ],
+   "events": [
+    {
+     "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WOH.xml",
+     "relpath": "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WOH.xml",
+     "name": "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WOH.xml",
+     "ext": ".xml",
+     "size": 635747,
+     "mtime": 1789303836,
+     "role": "events",
+     "match": "J03WOH"
+    }
+   ],
+   "positions": [
+    {
+     "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WOH.xml",
+     "relpath": "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WOH.xml",
+     "name": "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WOH.xml",
+     "ext": ".xml",
+     "size": 348945715,
+     "mtime": 1789303848,
+     "role": "positions",
+     "match": "J03WOH"
+    }
+   ]
+  },
+  "J03WOY": {
+   "matchinformation": [
+    {
+     "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WOY.xml",
+     "relpath": "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WOY.xml",
+     "name": "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WOY.xml",
+     "ext": ".xml",
+     "size": 11952,
+     "mtime": 1789303836,
+     "role": "matchinformation",
+     "match": "J03WOY"
+    }
+   ],
+   "events": [
+    {
+     "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WOY.xml",
+     "relpath": "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WOY.xml",
+     "name": "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WOY.xml",
+     "ext": ".xml",
+     "size": 683018,
+     "mtime": 1789303836,
+     "role": "events",
+     "match": "J03WOY"
+    }
+   ],
+   "positions": [
+    {
+     "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WOY.xml",
+     "relpath": "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WOY.xml",
+     "name": "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WOY.xml",
+     "ext": ".xml",
+     "size": 362567859,
+     "mtime": 1789303852,
+     "role": "positions",
+     "match": "J03WOY"
+    }
+   ]
+  },
+  "J03WPY": {
+   "matchinformation": [
+    {
+     "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WPY.xml",
+     "relpath": "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WPY.xml",
+     "name": "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WPY.xml",
+     "ext": ".xml",
+     "size": 11922,
+     "mtime": 1789303836,
+     "role": "matchinformation",
+     "match": "J03WPY"
+    }
+   ],
+   "events": [
+    {
+     "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WPY.xml",
+     "relpath": "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WPY.xml",
+     "name": "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WPY.xml",
+     "ext": ".xml",
+     "size": 698898,
+     "mtime": 1789303836,
+     "role": "events",
+     "match": "J03WPY"
+    }
+   ],
+   "positions": [
+    {
+     "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WPY.xml",
+     "relpath": "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WPY.xml",
+     "name": "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WPY.xml",
+     "ext": ".xml",
+     "size": 371688499,
+     "mtime": 1789303856,
+     "role": "positions",
+     "match": "J03WPY"
+    }
+   ]
+  },
+  "J03WQQ": {
+   "matchinformation": [
+    {
+     "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WQQ.xml",
+     "relpath": "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WQQ.xml",
+     "name": "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WQQ.xml",
+     "ext": ".xml",
+     "size": 11932,
+     "mtime": 1789303836,
+     "role": "matchinformation",
+     "match": "J03WQQ"
+    }
+   ],
+   "events": [
+    {
+     "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WQQ.xml",
+     "relpath": "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WQQ.xml",
+     "name": "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WQQ.xml",
+     "ext": ".xml",
+     "size": 732186,
+     "mtime": 1789303836,
+     "role": "events",
+     "match": "J03WQQ"
+    }
+   ],
+   "positions": [
+    {
+     "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WQQ.xml",
+     "relpath": "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WQQ.xml",
+     "name": "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WQQ.xml",
+     "ext": ".xml",
+     "size": 356219423,
+     "mtime": 1789303860,
+     "role": "positions",
+     "match": "J03WQQ"
+    }
+   ]
+  },
+  "J03WR9": {
+   "matchinformation": [
+    {
+     "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WR9.xml",
+     "relpath": "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WR9.xml",
+     "name": "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WR9.xml",
+     "ext": ".xml",
+     "size": 11823,
+     "mtime": 1789303836,
+     "role": "matchinformation",
+     "match": "J03WR9"
+    }
+   ],
+   "events": [
+    {
+     "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WR9.xml",
+     "relpath": "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WR9.xml",
+     "name": "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WR9.xml",
+     "ext": ".xml",
+     "size": 681050,
+     "mtime": 1789303836,
+     "role": "events",
+     "match": "J03WR9"
+    }
+   ],
+   "positions": [
+    {
+     "path": "C:\\Users\\USER\\Downloads\\IDSS\\DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WR9.xml",
+     "relpath": "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WR9.xml",
+     "name": "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WR9.xml",
+     "ext": ".xml",
+     "size": 372934140,
+     "mtime": 1789303864,
+     "role": "positions",
+     "match": "J03WR9"
+    }
+   ]
+  }
+ },
+ "n_files": 21,
+ "total_bytes": 2627505889
+}

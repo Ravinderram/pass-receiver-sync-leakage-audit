@@ -1,0 +1,14 @@
+{
+ "epochs": 8,
+ "horizon_s": 1.0,
+ "pretrain_matches": [
+  "J03WPY",
+  "J03WOH",
+  "J03WQQ",
+  "J03WOY"
+ ],
+ "quick_mode": false,
+ "sha": "224f0f4292e73c5a",
+ "timestamp_utc": "2026-09-14T12:25:12Z",
+ "windows": 14511
+}

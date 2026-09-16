@@ -1,0 +1,173 @@
+{
+ "anchor": "emitted_sync_frame",
+ "canonical_config": {
+  "ANCHOR": "emitted_sync_frame",
+  "AUGMENT_MIRROR": true,
+  "BASELINE_TRAIN_MATCHES": [
+   "J03WPY",
+   "J03WOH",
+   "J03WQQ",
+   "J03WOY",
+   "J03WR9"
+  ],
+  "BATCH_SIZE": 64,
+  "EARLY_STOPPING": true,
+  "ECE_BINS": 10,
+  "EPOCHS": 60,
+  "EXPECTED_PARAMS": 35909,
+  "FILTER_CUTOFF_HZ": 1.0,
+  "FILTER_ORDER": 3,
+  "FIT_MATCHES": [
+   "J03WPY",
+   "J03WOH",
+   "J03WQQ",
+   "J03WOY"
+  ],
+  "FRAMERATE": 25,
+  "HIDDEN": 64,
+  "LR": 0.001,
+  "MATCHES": {
+   "J03WMX": [
+    "1. FC Koeln",
+    "FC Bayern Muenchen",
+    1
+   ],
+   "J03WN1": [
+    "VfL Bochum 1848",
+    "Bayer 04 Leverkusen",
+    1
+   ],
+   "J03WOH": [
+    "Fortuna Duesseldorf",
+    "SSV Jahn Regensburg",
+    2
+   ],
+   "J03WOY": [
+    "Fortuna Duesseldorf",
+    "F.C. Hansa Rostock",
+    2
+   ],
+   "J03WPY": [
+    "Fortuna Duesseldorf",
+    "1. FC Nuernberg",
+    2
+   ],
+   "J03WQQ": [
+    "Fortuna Duesseldorf",
+    "FC St. Pauli",
+    2
+   ],
+   "J03WR9": [
+    "Fortuna Duesseldorf",
+    "1. FC Kaiserslautern",
+    2
+   ]
+  },
+  "MIN_OPPONENTS": 10,
+  "MIN_TEAMMATES": 9,
+  "MODEL_SELECTION_METRIC": "val_top1",
+  "NORMALISE_PER_TYPE": true,
+  "N_ATTENTION_LAYERS": 1,
+  "N_FEATURES": 11,
+  "N_HEADS": 4,
+  "N_OBJECTS": 23,
+  "N_OPPONENTS": 11,
+  "N_STEPS": 13,
+  "N_TEAMMATES": 10,
+  "OPEN_PLAY_EIDS": [
+   "Play_Pass",
+   "Play_Cross"
+  ],
+  "PATIENCE": 8,
+  "PREDICT_LEAD_S": 0.4,
+  "PRETRAIN_EPOCHS": 8,
+  "PRETRAIN_HORIZON_S": 1.0,
+  "PRETRAIN_MATCHES": [
+   "J03WPY",
+   "J03WOH",
+   "J03WQQ",
+   "J03WOY"
+  ],
+  "PRETRAIN_WINDOWS": 20000,
+  "QUICK_MODE": false,
+  "RESTORE_BEST_CHECKPOINT": true,
+  "SEEDS": [
+   0,
+   1,
+   2
+  ],
+  "SEED_AGGREGATION": "mean_over_seeds",
+  "STRIDE": 3,
+  "SUCCESS_LABEL": "successfullyCompleted",
+  "SYNC_GLOBAL_RANGE_S": 5.0,
+  "SYNC_LOCAL_RANGE_S": 2.5,
+  "TEST_MATCHES": [
+   "J03WMX",
+   "J03WN1"
+  ],
+  "TOPK_REPORTED": [
+   1,
+   2,
+   3,
+   5
+  ],
+  "TRAIN_MATCHES": [
+   "J03WPY",
+   "J03WOH",
+   "J03WQQ",
+   "J03WOY",
+   "J03WR9"
+  ],
+  "TTA_MIRROR": true,
+  "USE_EDGE_ATTENTION": true,
+  "USE_PRETRAIN": true,
+  "USE_SPACE_FEATURES": true,
+  "VAL_MATCH": "J03WR9",
+  "WINDOW_SECONDS": 1.5
+ },
+ "config_hash": "cb89e90edd60",
+ "data_source": "local_idsse",
+ "experiment": "cross_offset",
+ "git_commit": null,
+ "local_data_fingerprint": "507b59e397172327",
+ "local_data_root_basename": "IDSS",
+ "n_common": {
+  "J03WMX": 721,
+  "J03WN1": 454
+ },
+ "network_guard": {
+  "armed": false,
+  "blocked_attempts": [],
+  "local_only": true
+ },
+ "offsets_s": [
+  0.0,
+  0.2,
+  0.4,
+  0.8,
+  1.2
+ ],
+ "quick_mode": false,
+ "run_id": "a95b7a72bb",
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "software": {
+  "floodlight": "1.2.0",
+  "matplotlib": "3.11.1",
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.12",
+  "scipy": "1.18.1",
+  "sklearn": "1.9.0",
+  "torch": "2.5.1+cu121"
+ },
+ "test_matches": [
+  "J03WMX",
+  "J03WN1"
+ ],
+ "timestamp_utc": "2026-09-14T12:43:03Z"
+}

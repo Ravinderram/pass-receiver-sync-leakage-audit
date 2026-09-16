@@ -1,0 +1,277 @@
+{
+ "anchor": "emitted_sync_frame",
+ "baseline_training_matches": [
+  "J03WPY",
+  "J03WOH",
+  "J03WQQ",
+  "J03WOY",
+  "J03WR9"
+ ],
+ "canonical_config": {
+  "ANCHOR": "emitted_sync_frame",
+  "AUGMENT_MIRROR": true,
+  "BASELINE_TRAIN_MATCHES": [
+   "J03WPY",
+   "J03WOH",
+   "J03WQQ",
+   "J03WOY",
+   "J03WR9"
+  ],
+  "BATCH_SIZE": 64,
+  "EARLY_STOPPING": true,
+  "ECE_BINS": 10,
+  "EPOCHS": 60,
+  "EXPECTED_PARAMS": 35909,
+  "FILTER_CUTOFF_HZ": 1.0,
+  "FILTER_ORDER": 3,
+  "FIT_MATCHES": [
+   "J03WPY",
+   "J03WOH",
+   "J03WQQ",
+   "J03WOY"
+  ],
+  "FRAMERATE": 25,
+  "HIDDEN": 64,
+  "LR": 0.001,
+  "MATCHES": {
+   "J03WMX": [
+    "1. FC Koeln",
+    "FC Bayern Muenchen",
+    1
+   ],
+   "J03WN1": [
+    "VfL Bochum 1848",
+    "Bayer 04 Leverkusen",
+    1
+   ],
+   "J03WOH": [
+    "Fortuna Duesseldorf",
+    "SSV Jahn Regensburg",
+    2
+   ],
+   "J03WOY": [
+    "Fortuna Duesseldorf",
+    "F.C. Hansa Rostock",
+    2
+   ],
+   "J03WPY": [
+    "Fortuna Duesseldorf",
+    "1. FC Nuernberg",
+    2
+   ],
+   "J03WQQ": [
+    "Fortuna Duesseldorf",
+    "FC St. Pauli",
+    2
+   ],
+   "J03WR9": [
+    "Fortuna Duesseldorf",
+    "1. FC Kaiserslautern",
+    2
+   ]
+  },
+  "MIN_OPPONENTS": 10,
+  "MIN_TEAMMATES": 9,
+  "MODEL_SELECTION_METRIC": "val_top1",
+  "NORMALISE_PER_TYPE": true,
+  "N_ATTENTION_LAYERS": 1,
+  "N_FEATURES": 11,
+  "N_HEADS": 4,
+  "N_OBJECTS": 23,
+  "N_OPPONENTS": 11,
+  "N_STEPS": 13,
+  "N_TEAMMATES": 10,
+  "OPEN_PLAY_EIDS": [
+   "Play_Pass",
+   "Play_Cross"
+  ],
+  "PATIENCE": 8,
+  "PREDICT_LEAD_S": 0.4,
+  "PRETRAIN_EPOCHS": 8,
+  "PRETRAIN_HORIZON_S": 1.0,
+  "PRETRAIN_MATCHES": [
+   "J03WPY",
+   "J03WOH",
+   "J03WQQ",
+   "J03WOY"
+  ],
+  "PRETRAIN_WINDOWS": 20000,
+  "QUICK_MODE": false,
+  "RESTORE_BEST_CHECKPOINT": true,
+  "SEEDS": [
+   0,
+   1,
+   2
+  ],
+  "SEED_AGGREGATION": "mean_over_seeds",
+  "STRIDE": 3,
+  "SUCCESS_LABEL": "successfullyCompleted",
+  "SYNC_GLOBAL_RANGE_S": 5.0,
+  "SYNC_LOCAL_RANGE_S": 2.5,
+  "TEST_MATCHES": [
+   "J03WMX",
+   "J03WN1"
+  ],
+  "TOPK_REPORTED": [
+   1,
+   2,
+   3,
+   5
+  ],
+  "TRAIN_MATCHES": [
+   "J03WPY",
+   "J03WOH",
+   "J03WQQ",
+   "J03WOY",
+   "J03WR9"
+  ],
+  "TTA_MIRROR": true,
+  "USE_EDGE_ATTENTION": true,
+  "USE_PRETRAIN": true,
+  "USE_SPACE_FEATURES": true,
+  "VAL_MATCH": "J03WR9",
+  "WINDOW_SECONDS": 1.5
+ },
+ "config_hash": "cb89e90edd60",
+ "data_fingerprint": "4d44290e614f",
+ "data_source": "local_idsse",
+ "device": "cuda",
+ "early_stopping": {
+  "enabled": true,
+  "monitor": "val_top1",
+  "patience": 8,
+  "restore_best": true
+ },
+ "effective_batch_size": 256,
+ "epoch_cap": 60,
+ "experiment": "canonical",
+ "git_commit": null,
+ "history_file": "work/canonical_history.csv",
+ "lead_s": 0.4,
+ "local_data_fingerprint": "507b59e397172327",
+ "local_data_root_basename": "IDSS",
+ "model_parameters": 35909,
+ "n_seeds": 3,
+ "network_guard": {
+  "armed": false,
+  "blocked_attempts": [],
+  "local_only": true
+ },
+ "per_seed": [
+  {
+   "best_val_top1": 0.665648877620697,
+   "cache": "loaded",
+   "cache_key": "bcb23c0f7291bc7d",
+   "checkpoint": "work/checkpoints/bcb23c0f7291bc7d.pt",
+   "epoch_cap": 60,
+   "epochs_run": 35,
+   "n_fit_samples": 2398,
+   "n_val_samples": 655,
+   "parameters": 35909,
+   "pretrained_encoder_loaded": true,
+   "seed": 0,
+   "selected_epoch": 26,
+   "selection": "best validation top-1, weights restored",
+   "stopped_at": 34,
+   "stopped_early": true
+  },
+  {
+   "best_val_top1": 0.6839694976806641,
+   "cache": "loaded",
+   "cache_key": "862c87def402f3d1",
+   "checkpoint": "work/checkpoints/862c87def402f3d1.pt",
+   "epoch_cap": 60,
+   "epochs_run": 50,
+   "n_fit_samples": 2398,
+   "n_val_samples": 655,
+   "parameters": 35909,
+   "pretrained_encoder_loaded": true,
+   "seed": 1,
+   "selected_epoch": 41,
+   "selection": "best validation top-1, weights restored",
+   "stopped_at": 49,
+   "stopped_early": true
+  },
+  {
+   "best_val_top1": 0.6778625845909119,
+   "cache": "loaded",
+   "cache_key": "aa35101a9b468050",
+   "checkpoint": "work/checkpoints/aa35101a9b468050.pt",
+   "epoch_cap": 60,
+   "epochs_run": 49,
+   "n_fit_samples": 2398,
+   "n_val_samples": 655,
+   "parameters": 35909,
+   "pretrained_encoder_loaded": true,
+   "seed": 2,
+   "selected_epoch": 40,
+   "selection": "best validation top-1, weights restored",
+   "stopped_at": 48,
+   "stopped_early": true
+  }
+ ],
+ "predictions_file": "work/metrics_predictions_a95b7a72bb.csv",
+ "predictions_sha": "496b6608ef07273f",
+ "pretrain_fingerprint": "224f0f4292e7",
+ "pretrain_matches": [
+  "J03WPY",
+  "J03WOH",
+  "J03WQQ",
+  "J03WOY"
+ ],
+ "pretrained_encoder_loaded": true,
+ "pretraining_used": true,
+ "quick_mode": false,
+ "run_id": "a95b7a72bb",
+ "sample_counts": {
+  "fit": {
+   "J03WOH": 503,
+   "J03WOY": 566,
+   "J03WPY": 659,
+   "J03WQQ": 670
+  },
+  "test": {
+   "J03WMX": 722,
+   "J03WN1": 454
+  },
+  "validation": {
+   "J03WR9": 655
+  }
+ },
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "software": {
+  "floodlight": "1.2.0",
+  "matplotlib": "3.11.1",
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.12",
+  "scipy": "1.18.1",
+  "sklearn": "1.9.0",
+  "torch": "2.5.1+cu121"
+ },
+ "test_matches": [
+  "J03WMX",
+  "J03WN1"
+ ],
+ "timestamp_utc": "2026-09-14T12:41:45Z",
+ "training_matches": [
+  "J03WPY",
+  "J03WOH",
+  "J03WQQ",
+  "J03WOY"
+ ],
+ "validation_match": "J03WR9",
+ "variants": [
+  "baseline:gradient boosting",
+  "baseline:most advanced",
+  "baseline:nearest teammate",
+  "baseline:random",
+  "canonical",
+  "canonical_seed_ensemble"
+ ]
+}

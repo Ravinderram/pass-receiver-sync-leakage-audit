@@ -1,0 +1,11 @@
+{
+ "match_id": "J03WR9",
+ "local_fingerprint": "887b7d7524fad247",
+ "local_root": "C:\\Users\\USER\\Downloads\\IDSS",
+ "data_source": "local_idsse",
+ "files": [
+  "DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WR9.xml",
+  "DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WR9.xml",
+  "DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WR9.xml"
+ ]
+}
