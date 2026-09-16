@@ -1,0 +1,13 @@
+floodlight>=1.2.0
+numpy
+pandas
+scipy
+scikit-learn
+torch
+matplotlib
+mplsoccer
+pyflakes
+# step20_databallpy.py only, and it pins numpy differently from floodlight.
+# Install it in a separate environment and copy work/databallpy_comparison.csv
+# back; see the README section "Installing databallpy without breaking the rest".
+# databallpy==0.8.1
