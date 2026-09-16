@@ -1,0 +1,9 @@
+run_id,seed,lead_s,anchor,model_variant,test_match,model,n,top1,ci95,top3
+b83bf42eff,,0.4,emitted_sync_frame,baselines,J03WMX,random,722,0.11218836565096953,0.0230208735424288,
+b83bf42eff,,0.4,emitted_sync_frame,baselines,J03WMX,nearest teammate,722,0.2742382271468144,0.03254232017176893,
+b83bf42eff,,0.4,emitted_sync_frame,baselines,J03WMX,most advanced,722,0.0664819944598338,0.01817192107732667,
+b83bf42eff,,0.4,emitted_sync_frame,baselines,J03WMX,gradient boosting,722,0.48337950138504154,0.03645166785725244,0.8407202216066482
+b83bf42eff,,0.4,emitted_sync_frame,baselines,J03WN1,random,454,0.11013215859030837,0.02879704843105647,
+b83bf42eff,,0.4,emitted_sync_frame,baselines,J03WN1,nearest teammate,454,0.2775330396475771,0.0411902555593023,
+b83bf42eff,,0.4,emitted_sync_frame,baselines,J03WN1,most advanced,454,0.10352422907488987,0.02802324512329851,
+b83bf42eff,,0.4,emitted_sync_frame,baselines,J03WN1,gradient boosting,454,0.4185022026431718,0.04537859612172319,0.7709251101321586

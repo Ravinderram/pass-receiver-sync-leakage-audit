@@ -1,0 +1,3 @@
+run_id,seed,lead_s,anchor,model_variant,test_match,n,n_pairs,positive_rate,roc_auc_pairs,ap_pairs
+a95b7a72bb,,0.4,emitted_sync_frame,canonical_seed_ensemble,J03WMX,722,7220,0.1,0.958940914272365,0.7891185373254078
+a95b7a72bb,,0.4,emitted_sync_frame,canonical_seed_ensemble,J03WN1,454,4348,0.10441582336706531,0.9290498881143248,0.6790990749587034

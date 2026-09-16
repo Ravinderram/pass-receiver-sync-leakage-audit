@@ -1,0 +1,17 @@
+run_id,seed,lead_s,anchor,model_variant,test_match,n_fit_matches,n_fit_samples,setting,kind,components,n_seeds,gain_pp,paired_sd_pp,ci95_lo_pp,ci95_hi_pp,clears_2sd,sign_consistent
+a95b7a72bb,,,emitted_sync_frame,size_curve_summary,,1,659,+ space,individual,space,3,5.919984868268514,1.3610433216295135,2.5389658256827063,9.301003910854323,True,True
+a95b7a72bb,,,emitted_sync_frame,size_curve_summary,,1,659,+ train mirror,individual,mirror_train,3,4.5802978347793895,2.8532038068174463,-2.5074533410454327,11.66804901060421,False,True
+a95b7a72bb,,,emitted_sync_frame,size_curve_summary,,1,659,+ pretrain,individual,pretrain,3,0.9097343404883644,0.9610277036484012,-1.4775908201814496,3.2970595011581785,False,True
+a95b7a72bb,,,emitted_sync_frame,size_curve_summary,,1,659,everything,composite,mirror_train+tta+space+edge+pretrain+pertype,3,13.455546471093108,1.7351100445390413,9.14529417541688,17.765798766769336,True,True
+a95b7a72bb,,,emitted_sync_frame,size_curve_summary,,2,1162,+ space,individual,space,3,3.049837089826351,2.5770366272584266,-3.351876780508185,9.451550960160887,False,True
+a95b7a72bb,,,emitted_sync_frame,size_curve_summary,,2,1162,+ train mirror,individual,mirror_train,3,2.596495295739927,2.9413627325678458,-4.710254792168859,9.903245383648715,False,False
+a95b7a72bb,,,emitted_sync_frame,size_curve_summary,,2,1162,+ pretrain,individual,pretrain,3,-2.7944891210172447,1.291051887419537,-6.001639802382558,0.41266156034806833,True,True
+a95b7a72bb,,,emitted_sync_frame,size_curve_summary,,2,1162,everything,composite,mirror_train+tta+space+edge+pretrain+pertype,3,10.471097172562752,1.0195614238471196,7.93836619013826,13.003828154987243,True,True
+a95b7a72bb,,,emitted_sync_frame,size_curve_summary,,3,1832,+ space,individual,space,3,0.7564848825053613,2.917967838896381,-6.49214906777175,8.005118832782474,False,False
+a95b7a72bb,,,emitted_sync_frame,size_curve_summary,,3,1832,+ train mirror,individual,mirror_train,3,1.8967544063032626,1.0399966019988354,-0.6867403728142429,4.480249185420768,False,True
+a95b7a72bb,,,emitted_sync_frame,size_curve_summary,,3,1832,+ pretrain,individual,pretrain,3,-0.37015794761654774,0.7587854153434563,-2.2550854129973654,1.5147695177642697,False,False
+a95b7a72bb,,,emitted_sync_frame,size_curve_summary,,3,1832,everything,composite,mirror_train+tta+space+edge+pretrain+pertype,3,12.05636976745132,0.5523526993430233,10.684249596826223,13.428489938076417,True,True
+a95b7a72bb,,,emitted_sync_frame,size_curve_summary,,4,2398,+ space,individual,space,3,5.526437819566305,2.7482667818774815,-1.3006353352462652,12.353510974378874,True,True
+a95b7a72bb,,,emitted_sync_frame,size_curve_summary,,4,2398,+ train mirror,individual,mirror_train,3,2.2835897999113257,1.8596340225789743,-2.3359972056310694,6.903176805453721,False,True
+a95b7a72bb,,,emitted_sync_frame,size_curve_summary,,4,2398,+ pretrain,individual,pretrain,3,-1.2484695392550493,2.1774996849657327,-6.657678624002889,4.16073954549279,False,False
+a95b7a72bb,,,emitted_sync_frame,size_curve_summary,,4,2398,everything,composite,mirror_train+tta+space+edge+pretrain+pertype,3,10.830679178818832,1.514529459097301,7.0683794339183965,14.592978923719267,True,True

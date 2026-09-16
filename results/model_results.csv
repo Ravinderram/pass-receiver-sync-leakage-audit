@@ -1,0 +1,13 @@
+run_id,seed,lead_s,anchor,model_variant,test_match,setting,top1,top3,steps,selected_epoch,epochs_run
+b83bf42eff,0,0.4,emitted_sync_frame,history_ablation,J03WMX,A: 1.5s of history,0.6897506925207756,0.9307479224376731,13,36,45
+b83bf42eff,0,0.4,emitted_sync_frame,history_ablation,J03WN1,A: 1.5s of history,0.5903083700440529,0.8766519823788547,13,36,45
+b83bf42eff,0,0.4,emitted_sync_frame,history_ablation,J03WMX,B: single frame,0.6551246537396122,0.8947368421052632,1,31,40
+b83bf42eff,0,0.4,emitted_sync_frame,history_ablation,J03WN1,B: single frame,0.5814977973568282,0.8788546255506607,1,31,40
+b83bf42eff,1,0.4,emitted_sync_frame,history_ablation,J03WMX,A: 1.5s of history,0.682825484764543,0.9265927977839336,13,43,52
+b83bf42eff,1,0.4,emitted_sync_frame,history_ablation,J03WN1,A: 1.5s of history,0.5682819383259912,0.8524229074889867,13,43,52
+b83bf42eff,1,0.4,emitted_sync_frame,history_ablation,J03WMX,B: single frame,0.6385041551246537,0.8988919667590027,1,30,39
+b83bf42eff,1,0.4,emitted_sync_frame,history_ablation,J03WN1,B: single frame,0.5616740088105727,0.8590308370044053,1,30,39
+b83bf42eff,2,0.4,emitted_sync_frame,history_ablation,J03WMX,A: 1.5s of history,0.6731301939058172,0.9113573407202216,13,29,38
+b83bf42eff,2,0.4,emitted_sync_frame,history_ablation,J03WN1,A: 1.5s of history,0.5770925110132159,0.8524229074889867,13,29,38
+b83bf42eff,2,0.4,emitted_sync_frame,history_ablation,J03WMX,B: single frame,0.6509695290858726,0.9058171745152355,1,37,46
+b83bf42eff,2,0.4,emitted_sync_frame,history_ablation,J03WN1,B: single frame,0.5748898678414097,0.8546255506607929,1,37,46

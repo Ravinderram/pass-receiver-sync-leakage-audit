@@ -1,0 +1,14 @@
+run_id,seed,lead_s,anchor,model_variant,test_match,rise_over_final_k_frames,rise_duration_s,label,localisation,rise,legacy_verdict
+a95b7a72bb,,,emitted_sync_frame,flatness_sensitivity,,1,0.12,localised_rise,1.0119152691968225,0.5035555555555556,leak
+a95b7a72bb,,,emitted_sync_frame,flatness_sensitivity,,2,0.24,localised_rise,1.0119152691968225,0.5035555555555556,leak
+a95b7a72bb,,,emitted_sync_frame,flatness_sensitivity,,3,0.36,localised_rise,1.0119152691968225,0.5035555555555556,leak
+a95b7a72bb,,,emitted_sync_frame,flatness_sensitivity,,4,0.48,localised_rise,0.9254192409532215,0.5035555555555556,leak
+a95b7a72bb,,,emitted_sync_frame,flatness_sensitivity,,5,0.6,localised_rise,0.8084730803177406,0.5035555555555556,leak
+a95b7a72bb,,,emitted_sync_frame,flatness_sensitivity,,6,0.72,gradual_rise,0.6710061782877317,0.5035555555555556,leak
+a95b7a72bb,,,emitted_sync_frame,flatness_sensitivity,,7,0.84,gradual_rise,0.5785525154457193,0.5035555555555556,leak
+a95b7a72bb,,,emitted_sync_frame,flatness_sensitivity,,8,0.96,gradual_rise,0.509929390997352,0.5035555555555556,leak
+a95b7a72bb,,,emitted_sync_frame,flatness_sensitivity,,9,1.08,gradual_rise,0.45476610767872916,0.5035555555555556,leak
+a95b7a72bb,,,emitted_sync_frame,flatness_sensitivity,,10,1.2,gradual_rise,0.4075463371579876,0.5035555555555556,leak
+a95b7a72bb,,,emitted_sync_frame,flatness_sensitivity,,11,1.32,gradual_rise,0.3816149635036498,0.48711111111111116,leak
+a95b7a72bb,,,emitted_sync_frame,flatness_sensitivity,,12,1.44,gradual_rise,0.3745480838756328,0.4610000000000001,leak
+a95b7a72bb,,,emitted_sync_frame,flatness_sensitivity,,13,1.56,gradual_rise,0.369406867845994,0.42711111111111116,leak

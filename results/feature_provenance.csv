@@ -1,0 +1,49 @@
+idx,feature,category,source,note,table,file
+0.0,x,FROM DATA,<Frame X=...>,"Butterworth low-pass filtered (step 4), then sign-flipped so the passing team always attacks +x (step 5)",model_input,
+1.0,y,FROM DATA,<Frame Y=...>,same filtering and flip,model_input,
+2.0,vx,DERIVED,central difference on filtered x,"the raw XML has a speed field S, but floodlight drops it, so velocity is computed here",model_input,
+3.0,vy,DERIVED,central difference on filtered y,same,model_input,
+4.0,is_mate,DERIVED,event Team + tracking array membership,1 for the passer's ten teammates,model_input,
+5.0,is_opp,DERIVED,event Team + tracking array membership,1 for the eleven opponents,model_input,
+6.0,is_ball,STRUCTURAL,which array the object came from,the ball is always object index 22,model_input,
+7.0,is_passer,DERIVED,<Play Player=...>,the event names the player; we encode it as a flag on object index 0,model_input,
+8.0,is_present,DERIVED,NaN pattern in the tracking array,distinguishes a real player from a padded slot after a red card,model_input,
+9.0,pressure,DERIVED,distance to nearest opponent,computable from coordinates the model already has; given explicitly because a few thousand samples are not enough to rediscover it,model_input,
+10.0,ball_dist,DERIVED,distance to the ball,same reasoning,model_input,
+,dist,DERIVED,,passer to candidate,gbm_baseline,
+,angle,DERIVED,,bearing from passer to candidate,gbm_baseline,
+,d_opp,DERIVED,,candidate to his nearest opponent,gbm_baseline,
+,lane,DERIVED,,opponents inside the passer-candidate corridor,gbm_baseline,
+,speed,DERIVED,,candidate's speed,gbm_baseline,
+,moved,DERIVED,,how far the candidate moved across the window,gbm_baseline,
+,ahead,DERIVED,,candidate's x relative to the passer,gbm_baseline,
+,to_goal,DERIVED,,candidate's distance to the opposition goal,gbm_baseline,
+,N,used,,"frame number, the index everything is joined on",raw_fields,Frame
+,T,dropped by floodlight,,per-frame ISO timestamp,raw_fields,Frame
+,"X, Y",used,,the only raw numeric features that reach the model,raw_fields,Frame
+,Z,dropped by floodlight,,ball height. Would be a genuine ball-only feature and is the one real argument for a separate ball encoder,raw_fields,Frame
+,D,dropped by floodlight,,distance covered since last frame,raw_fields,Frame
+,S,dropped by floodlight,,speed. This is why velocity is derived rather than read,raw_fields,Frame
+,A,dropped by floodlight,,acceleration,raw_fields,Frame
+,M,dropped by floodlight,,minute of play,raw_fields,Frame
+,BallPossession,"available, unused",,which team has the ball,raw_fields,Frame
+,BallStatus,"available, unused",,ball in play or dead,raw_fields,Frame
+,Player,used,,becomes is_passer,raw_fields,Play
+,Team,used,,becomes is_mate / is_opp,raw_fields,Play
+,Recipient,used as the LABEL,,"the target, never an input",raw_fields,Play
+,PlayAngle,FORBIDDEN,,describes the pass after it happened,raw_fields,Play
+,Distance,FORBIDDEN,,same,raw_fields,Play
+,Height,FORBIDDEN,,same,raw_fields,Play
+,FlatCross,FORBIDDEN,,same,raw_fields,Play
+,Evaluation,used as a FILTER,,keeps successful passes; never an input,raw_fields,Play
+,PlayOrigin,"available, unused",,own half or opposition half,raw_fields,Play
+,PenaltyBox,"available, unused",,whether the pass entered the box,raw_fields,Play
+,SemiField,"available, unused",,,raw_fields,Play
+,FromOpenPlay,"available, unused",,used implicitly via the eID filter,raw_fields,Play
+,BallPossessionPhase,"available, unused",,a possession sequence id — would group passes into attacks,raw_fields,Play
+,X-Source-Position,used,,"pass origin, converted from corner-based",raw_fields,Event
+,Y-Source-Position,used,,same,raw_fields,Event
+,"X-Position, Y-Position",FORBIDDEN,,where the ball ended up,raw_fields,Event
+,position,"used, but not as a model input",,TW/IV/ST codes. Used to find the goalkeeper and to report per-position metrics. Never fed to the network — an obvious feature to try,raw_fields,Teamsheet
+,"pID, xID",used,,maps a player to his array slot,raw_fields,Teamsheet
+,"jID, player, team","available, unused",,"shirt number, name",raw_fields,Teamsheet

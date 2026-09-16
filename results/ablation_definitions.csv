@@ -1,0 +1,10 @@
+run_id,seed,lead_s,anchor,model_variant,test_match,setting,kind,components,mirror_train,tta,space,edge,pretrain,pertype
+a95b7a72bb,,,emitted_sync_frame,ablation_definitions,,plain,reference,,0,0,0,0,0,0
+a95b7a72bb,,,emitted_sync_frame,ablation_definitions,,+ train mirror,individual,mirror_train,1,0,0,0,0,0
+a95b7a72bb,,,emitted_sync_frame,ablation_definitions,,+ test-time avg,individual,tta,0,1,0,0,0,0
+a95b7a72bb,,,emitted_sync_frame,ablation_definitions,,+ both mirror,composite,mirror_train+tta,1,1,0,0,0,0
+a95b7a72bb,,,emitted_sync_frame,ablation_definitions,,+ space,individual,space,0,0,1,0,0,0
+a95b7a72bb,,,emitted_sync_frame,ablation_definitions,,+ edge,individual,edge,0,0,0,1,0,0
+a95b7a72bb,,,emitted_sync_frame,ablation_definitions,,+ pretrain,individual,pretrain,0,0,0,0,1,0
+a95b7a72bb,,,emitted_sync_frame,ablation_definitions,,+ per-type norm,individual,pertype,0,0,0,0,0,1
+a95b7a72bb,,,emitted_sync_frame,ablation_definitions,,everything,composite,mirror_train+tta+space+edge+pretrain+pertype,1,1,1,1,1,1

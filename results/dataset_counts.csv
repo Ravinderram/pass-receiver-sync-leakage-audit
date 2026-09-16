@@ -1,0 +1,8 @@
+match_id,lead_s,anchor,passes_in,samples,skipped_early,skipped_not_11v11,skipped_nan_window,skipped_recipient_off
+J03WMX,0.4,emitted_sync_frame,722,722,0,0,0,0
+J03WN1,0.4,emitted_sync_frame,455,454,1,0,0,0
+J03WPY,0.4,emitted_sync_frame,659,659,0,0,0,0
+J03WOH,0.4,emitted_sync_frame,503,503,0,0,0,0
+J03WQQ,0.4,emitted_sync_frame,670,670,0,0,0,0
+J03WOY,0.4,emitted_sync_frame,566,566,0,0,0,0
+J03WR9,0.4,emitted_sync_frame,655,655,0,0,0,0
