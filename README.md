@@ -306,8 +306,3 @@ Thanks to the IDSSE authors for releasing full-match tracking and event data
 under an open licence, without which this audit would not have been possible,
 and for publishing the companion code whose descriptive statistics are used here
 as an independent check on parsing.
-
-A large language model was used for language editing, drafting assistance and
-code review during this project. All experimental design, analysis and reported
-results are the author's own and were verified against the underlying result
-files.
